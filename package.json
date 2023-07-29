@@ -1,0 +1,18 @@
+{
+  "name": "dcl-sdk7-lib",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "npm link && tsc --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@dcl-sdk/utils": "^1.1.2",
+    "@dcl/sdk": "^7.3.3",
+    "typescript": "^5.1.6"
+  }
+}

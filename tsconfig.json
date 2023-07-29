@@ -1,0 +1,13 @@
+{
+  "extends": "@dcl/sdk/types/tsconfig.ecs7.json",
+  "compilerOptions": {
+      "declaration": true,
+      "outDir": "./dist"
+  },
+  "include": [
+      "./src"
+  ],
+  "exclude": [
+      "./dist"
+  ]
+}
