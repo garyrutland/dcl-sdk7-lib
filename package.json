@@ -1,8 +1,9 @@
 {
   "name": "dcl-sdk7-lib",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "",
-  "main": "index.js",
+  "main": "./dist/index.js",
+  "typings": "./dist/index.d.ts",
   "scripts": {
     "build": "tsc",
     "watch": "npm link && tsc --watch",
@@ -14,5 +15,8 @@
     "@dcl-sdk/utils": "^1.1.2",
     "@dcl/sdk": "^7.3.3",
     "typescript": "^5.1.6"
-  }
+  },
+  "files": [
+    "./dist"
+  ]
 }
